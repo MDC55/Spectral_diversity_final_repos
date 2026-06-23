@@ -1,0 +1,3 @@
+When you run many statistical tests, some will appear significant purely by chance.
+
+Both Bonferroni and Benjamini-Hochberg (BH/FDR) try to correct for that problem, but they do it in different ways.

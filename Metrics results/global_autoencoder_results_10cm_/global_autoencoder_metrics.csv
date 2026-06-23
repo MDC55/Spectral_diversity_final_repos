@@ -1,0 +1,13 @@
+species_richness,data_dir,n_valid_pixels,n_valid_bands,CHV,latent_variance_sum,mean_pairwise_distance,mean_reconstruction_error
+3,D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/3sp/10cm,9025,393,20.55115464664778,1.0997894,1.2404456437420133,1.99623859188018e-05
+5,D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/5sp_with_abundance/10cm,9025,393,23.07243052182718,1.099117,1.2506198540138127,1.7350670098559772e-05
+7,D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/7sp/10cm,9025,393,20.584972876313554,1.0617704,1.2498201346405342,2.637215672317323e-05
+10,D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/10sp_v2/10cm,9025,393,16.08446377947298,0.95807284,1.173079519717556,2.4951407438227693e-05
+12,D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/12sp/10cm,9025,393,35.200063807904684,1.1519108,1.3028832843723077,2.8030712155225142e-05
+15,D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/15sp_with_abundance/10cm,9025,393,37.89755576763786,2.6016026,1.8437746799081653,2.438416199441404e-05
+17,D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/17sp/10cm,9025,393,28.568482645303217,1.3556513,1.4214600538075624,2.981899842225232e-05
+20,D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/20sp/10cm,9025,393,48.13327632975588,2.9446583,1.9426727238028274,2.071691308102546e-05
+22,D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/22sp/10cm,9025,393,44.95028679293734,2.4087462,1.7758828801114965,1.910765524466013e-05
+25,D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/25sp_with_abundance/10cm,9025,393,30.08489430227105,2.410915,1.7847526497839379,1.8990421069389357e-05
+27,D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/27sp/10cm,9025,393,35.7622915299917,2.3836946,1.7832540961264187,2.112008854217035e-05
+30,D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/30sp_with_abundance/10cm,9025,393,71.9334715027414,3.1749277,2.0126878689393393,2.1047064308865267e-05

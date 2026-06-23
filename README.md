@@ -5,7 +5,7 @@ This repository contains Python scripts, analysis workflows, and results for spe
 ## Project overview
 
 The project includes:
-- `AE_global_*` and `auto_encoder_global_50cm_.py` for autoencoder-based spectral analysis.
+- `AE_global_*` for autoencoder-based spectral analysis.
 - `spectral_workflow_*` scripts for processing spectral data by resolution.
 - `run_metrics_*` scripts for computing diversity metrics across resolutions.
 - `metrics_common.py`, `metrics_common_CV_only.py`, and `metrics_common_without_CV.py` for common metric functions and CV-specific calculations.
@@ -74,33 +74,5 @@ Analyze the spectral diversity results:
 python "Spectral diversity result\cv_band_analysis.py"
 ```
 
-## Notes
-
-- `metrics_common_CV_only.py` contains only CV-related metrics.
-- `metrics_common_without_CV.py` excludes CV metrics and is used for the 2cm resolution workflow.
-- `metrics_common.py` contains the full metric set used in the 5cm, 10cm, 50cm, and 1m scripts.
-
-## Git repository
-
-This folder is now initialized as a Git repository. Add, commit, and push as needed.
-
-## GitHub profile
 
 - Owner: [MDC55](https://github.com/MDC55)
-
-## Publish to GitHub
-
-1. Create a new repository on GitHub under your profile: `https://github.com/MDC55`.
-2. Add the repository as a remote in this folder:
-
-```powershell
-git remote add origin https://github.com/MDC55/<your-repo-name>.git
-```
-
-3. Push the current branch:
-
-```powershell
-git push -u origin master
-```
-
-If you want me to set the remote for you, provide the repository name and I can add it directly.

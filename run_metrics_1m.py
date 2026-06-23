@@ -1,0 +1,40 @@
+from metrics_common import run_workflow, save_all_outputs
+from spectral_workflow_1m import process_spectral_workflow
+
+if __name__ == "__main__":
+    
+    data_dirs = [
+        r'D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/3sp/1m',
+        r'D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/5sp_with_abundance/1m',
+        r'D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/7sp/1m',
+        r'D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/10sp_v2/1m',
+        r'D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/12sp/1m',
+        r'D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/15sp_with_abundance/1m',
+        r'D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/17sp/1m',
+        r'D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/20sp/1m',
+        r'D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/22sp/1m',
+        r'D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/25sp_with_abundance/1m',
+        r'D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/27sp/1m',
+        r'D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/different_species/30sp_with_abundance/1m',
+    ]
+    output_root = r'D:/Drive F 5-11-2024/A_BiosCape_Project3/Spectral_diversity/CHV_CHA_SID_SAM_CV_1m_results'
+
+    results_df, global_pca, global_mean_spectrum, processed, wavelengths_nm = run_workflow(
+        data_dirs=data_dirs,
+        workflow_func=process_spectral_workflow,
+        n_components=3,
+        max_pixels_for_pca=200000,
+        visualize_one=False,
+        visualize_richness=30,
+    )
+
+    print('\nFinal summary results:')
+    print(results_df)
+
+    save_all_outputs(
+        results_df=results_df,
+        processed=processed,
+        global_mean_spectrum=global_mean_spectrum,
+        wavelengths_nm=wavelengths_nm,
+        output_root=output_root,
+    )

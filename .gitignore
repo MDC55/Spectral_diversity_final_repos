@@ -33,3 +33,7 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Large local results files excluded from GitHub
+Metrics results/CHV_CHA_SID_SAM_2cm_results/csv/metric_values_by_pixel.csv
+Metrics results/CHV_CHA_SID_SAM_CV_5cm_results/csv/metric_values_by_pixel.csv

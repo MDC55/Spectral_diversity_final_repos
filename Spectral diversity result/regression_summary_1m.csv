@@ -1,0 +1,9 @@
+Metric,Best_model,Slope_lin,Slope_log,R2_lin,p_lin,LOOCV_RMSE_lin,R2_log,p_log,LOOCV_RMSE_log,p_Bonferroni,p_BH_FDR,sig_Bonferroni,sig_FDR,SW_p_residuals,Influential_pts
+PCA-CHV,linear,-0.0135,-0.1512,0.1387,0.233098,0.3377,0.0926,0.336087,0.3421,1.0,0.387093,False,False,0.8322,none
+SAM,log-linear,0.0006,0.0116,0.0683,0.412107,0.0226,0.1258,0.257994,0.0215,1.0,0.387093,False,False,0.4911,none
+SID,log-linear,0.0005,0.008,0.1119,0.287868,0.0137,0.1628,0.193347,0.0129,1.0,0.387093,False,False,0.2446,[11]
+CHA,linear,-0.015,-0.1903,0.6003,0.003082,0.1186,0.5105,0.009033,0.1348,0.024657,0.012328,True,True,0.5986,none
+CV,linear,0.693,8.9177,0.7524,0.000257,4.162,0.6602,0.001318,5.2195,0.002058,0.002058,True,True,0.4833,none
+AE-CHV,log-linear,0.0051,0.0864,0.0544,0.465867,0.2154,0.0835,0.362267,0.2046,1.0,0.387093,False,False,0.7398,[11]
+AE Latent Variance Sum,log-linear,0.019,0.3781,0.0361,0.55439,0.9751,0.0756,0.387093,0.9509,1.0,0.387093,False,False,0.392,none
+AE Mean Pairwise Distance,log-linear,0.0048,0.1026,0.0436,0.515004,0.2286,0.1058,0.302298,0.2205,1.0,0.387093,False,False,0.2342,none

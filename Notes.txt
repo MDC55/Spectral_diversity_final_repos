@@ -1,0 +1,13 @@
+Notes:
+CV was measured later
+To get 
+metrics_common_CV_only- it just has CV
+metrics_common_without_CV- it doesn't have the CV metrics
+metrics_common-it has all the metrics
+
+For 5cm, 10cm, 50cm, 1m -metrics common was used
+as i had space issue i had to divide 2cm into two scripts
+For 2cm- metrics_common_without_CV was used to get all other metrics except CV
+       - metrics_common_CV_only was used to get only CV, and also the calpanel position was different than other metrics
+
+
