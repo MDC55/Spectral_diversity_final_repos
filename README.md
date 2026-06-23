@@ -74,5 +74,6 @@ Analyze the spectral diversity results:
 python "Spectral diversity result\cv_band_analysis.py"
 ```
 
+<img src="Metrics results/AE_CHV.jpg" alt="Workflow Diagram" width="600">
 
 - Owner: [MDC55](https://github.com/MDC55)
