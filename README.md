@@ -83,3 +83,24 @@ python "Spectral diversity result\cv_band_analysis.py"
 ## Git repository
 
 This folder is now initialized as a Git repository. Add, commit, and push as needed.
+
+## GitHub profile
+
+- Owner: [MDC55](https://github.com/MDC55)
+
+## Publish to GitHub
+
+1. Create a new repository on GitHub under your profile: `https://github.com/MDC55`.
+2. Add the repository as a remote in this folder:
+
+```powershell
+git remote add origin https://github.com/MDC55/<your-repo-name>.git
+```
+
+3. Push the current branch:
+
+```powershell
+git push -u origin master
+```
+
+If you want me to set the remote for you, provide the repository name and I can add it directly.
